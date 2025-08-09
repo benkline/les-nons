@@ -1,0 +1,10 @@
+name = "les-nons"
+main = "./.cloudflare/worker.js"
+compatibility_date = "2024-08-09"
+
+[assets]
+directory = ".cloudflare/public"
+binding = "ASSETS"
+
+[build]
+command = "npm run build"

@@ -27,6 +27,7 @@
  */
 declare module '$env/static/private' {
 	export const NVM_INC: string;
+	export const CLAUDE_CODE_ENTRYPOINT: string;
 	export const TERM_PROGRAM: string;
 	export const NODE: string;
 	export const INIT_CWD: string;
@@ -44,6 +45,7 @@ declare module '$env/static/private' {
 	export const npm_config_noproxy: string;
 	export const npm_config_local_prefix: string;
 	export const EXTENSION_KIT_EXTENSION_TYPE: string;
+	export const GIT_EDITOR: string;
 	export const NVM_DIR: string;
 	export const USER: string;
 	export const COMMAND_MODE: string;
@@ -64,6 +66,7 @@ declare module '$env/static/private' {
 	export const PWD: string;
 	export const npm_lifecycle_event: string;
 	export const EDITOR: string;
+	export const OTEL_EXPORTER_OTLP_METRICS_TEMPORALITY_PREFERENCE: string;
 	export const npm_package_name: string;
 	export const LANG: string;
 	export const ITERM_PROFILE: string;
@@ -81,11 +84,13 @@ declare module '$env/static/private' {
 	export const npm_config_cache: string;
 	export const LOGNAME: string;
 	export const npm_lifecycle_script: string;
+	export const COREPACK_ENABLE_AUTO_PIN: string;
 	export const NVM_BIN: string;
 	export const npm_config_user_agent: string;
 	export const INFOPATH: string;
 	export const HOMEBREW_CELLAR: string;
 	export const LC_TERMINAL: string;
+	export const CLAUDECODE: string;
 	export const npm_node_execpath: string;
 	export const npm_config_prefix: string;
 	export const COLORTERM: string;
@@ -122,6 +127,7 @@ declare module '$env/static/public' {
 declare module '$env/dynamic/private' {
 	export const env: {
 		NVM_INC: string;
+		CLAUDE_CODE_ENTRYPOINT: string;
 		TERM_PROGRAM: string;
 		NODE: string;
 		INIT_CWD: string;
@@ -139,6 +145,7 @@ declare module '$env/dynamic/private' {
 		npm_config_noproxy: string;
 		npm_config_local_prefix: string;
 		EXTENSION_KIT_EXTENSION_TYPE: string;
+		GIT_EDITOR: string;
 		NVM_DIR: string;
 		USER: string;
 		COMMAND_MODE: string;
@@ -159,6 +166,7 @@ declare module '$env/dynamic/private' {
 		PWD: string;
 		npm_lifecycle_event: string;
 		EDITOR: string;
+		OTEL_EXPORTER_OTLP_METRICS_TEMPORALITY_PREFERENCE: string;
 		npm_package_name: string;
 		LANG: string;
 		ITERM_PROFILE: string;
@@ -176,11 +184,13 @@ declare module '$env/dynamic/private' {
 		npm_config_cache: string;
 		LOGNAME: string;
 		npm_lifecycle_script: string;
+		COREPACK_ENABLE_AUTO_PIN: string;
 		NVM_BIN: string;
 		npm_config_user_agent: string;
 		INFOPATH: string;
 		HOMEBREW_CELLAR: string;
 		LC_TERMINAL: string;
+		CLAUDECODE: string;
 		npm_node_execpath: string;
 		npm_config_prefix: string;
 		COLORTERM: string;
